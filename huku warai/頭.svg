@@ -1,0 +1,16 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- 脸部主体 -->
+  <circle cx="150" cy="155" r="110" fill="#FFDD00" stroke="#000" stroke-width="3"/>
+  <!-- 左眼 -->
+  <circle cx="100" cy="140" r="22" fill="#000"/>
+  <circle cx="92" cy="132" r="8" fill="#fff"/>
+  <!-- 右眼 -->
+  <circle cx="200" cy="140" r="22" fill="#000"/>
+  <circle cx="192" cy="132" r="8" fill="#fff"/>
+  <!-- 腮红 -->
+  <ellipse cx="65" cy="190" rx="28" ry="20" fill="#FF6666"/>
+  <ellipse cx="235" cy="190" rx="28" ry="20" fill="#FF6666"/>
+  <!-- 鼻子嘴巴 -->
+  <path d="M145 170 L155 170 L150 178 Z" fill="#000"/>
+  <path d="M120 190 Q150 215 180 190" fill="none" stroke="#000" stroke-width="3"/>
+</svg>

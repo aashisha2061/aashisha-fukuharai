@@ -1,0 +1,14 @@
+<svg width="240" height="260" viewBox="0 0 240 260" xmlns="http://www.w3.org/2000/svg">
+  <!-- 躯干身体 -->
+  <ellipse cx="120" cy="180" rx="72" ry="82" fill="#FFDD00" stroke="#000" stroke-width="3"/>
+  <!-- 左手 -->
+  <ellipse cx="52" cy="166" rx="22" ry="32" fill="#FFDD00" stroke="#000" stroke-width="3"/>
+  <!-- 右手 -->
+  <ellipse cx="188" cy="166" rx="22" ry="32" fill="#FFDD00" stroke="#000" stroke-width="3"/>
+  <!-- 左脚 -->
+  <ellipse cx="82" cy="242" rx="28" ry="16" fill="#FFDD00" stroke="#000" stroke-width="3"/>
+  <!-- 右脚 -->
+  <ellipse cx="158" cy="242" rx="28" ry="16" fill="#FFDD00" stroke="#000" stroke-width="3"/>
+  <!-- 腹部浅色区域 -->
+  <ellipse cx="120" cy="196" rx="44" ry="52" fill="#FFF2B3"/>
+</svg>

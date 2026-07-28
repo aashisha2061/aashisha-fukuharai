@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+ 
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>福笑いをやってみよう！</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f4f4f9;
+            font-family: sans-serif;
+            margin-top: 50px;
+        }
+
+        /* キャンバス（福笑いの台紙）の設定 */
+        .fukuwarai-canvas {
+            position: relative;
+            /* 子要素の基準位置にする */
+            width: 800px;
+            height: 700px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 4px dashed #ccc;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        /* 全てのパーツに共通する設定 */
+        .part {
+            position: absolute;
+            /* キャンバス内の自由な位置に配置 */
+            /* トランジションをつけて、後からJSで動かす時になめらかにする準備 */
+            transition: all 0.3s ease;
+        }
+
+        /* 各パーツの配置位置（ここを調整して福笑いを完成させる） */
+        .face {
+            top: 180px;
+            left: 190px;
+            width: 300px;
+            z-index: 3;
+        }
+
+        .ears {
+            top: 110px;
+            left: 130px;
+            width: 350px;
+            z-index: 4;
+        }
+
+        .body {
+            top: 320px;
+            left: 197px;
+            width: 280px;
+            z-index: 2;
+        }
+
+        .tail {
+            top: 100px;
+            left: 270px;
+            width: 560px;
+            z-index: 1;
+            transform: rotate(10deg);
+            transform-origin: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🧑‍🎨 チーム・キャラクター福笑い</h1>
+    <p>各自が作成したSVGパーツを組み合わせて、一つの顔を作っています！</p>
+
+    <div class="fukuwarai-canvas">
+        <img src="頭.svg" alt="輪郭" class="part face">
+        <img src="耳.svg" alt="目" class="part ears">
+        <img src="体.svg" alt="鼻" class="part body">
+        <img src="tail.svg" alt="口" class="part tail">
+    </div>
+
+</body>
+
+</html>
